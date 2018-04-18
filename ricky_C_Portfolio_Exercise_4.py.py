@@ -1,0 +1,10 @@
+##    def calculator(p,r,n,t):
+##        a = p*((1+r/n)**(n*t))
+##        print(a)
+##    calculator(10000,0.08,12,4)
+p = float(input("Enter principal amount" ))
+r = float(input("Enter annual interest"))
+n = float(input("Enter number of times the interest compounded per year"))
+t = float(input("numberof the years"))
+a = p*((1+r/n)**(n*t))
+print(a)

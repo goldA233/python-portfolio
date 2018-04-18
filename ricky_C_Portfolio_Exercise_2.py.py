@@ -1,0 +1,8 @@
+print("Welcome to the questionaire!")
+name = input("what's your name?")
+age = input('hello how old r u?')
+habbit = input("what's your favourite movie")
+print(" ")
+print("processing")
+print(" ")
+print("hi", name , ".\n You are",age,"old.\n your favourite movie is ", habbit ,".\n goodbye")
